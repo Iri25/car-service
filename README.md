@@ -1,4 +1,6 @@
 # car-service
+Python application with a 4-layered architecture: data access layer ([Domain package]), persistence layer ([Repository package]), business layer ([Service package])) and presentation layer ([User_Interface package]). The data is saved in memory. Tests were done to validate the data ([Tests package]).
+
 Application for managing a car service that supports the following functionalities:
 1. CRUD car: id, model, year of purchase, no. km, under warranty. Km and year of manufacture must be strictly positive.
 2. CRUD customer card: id, name, surname, CNP, date of birth (dd.mm.yyyy), date of registration (dd.mm.yyyy). The CNP must be unique.
