@@ -1,5 +1,5 @@
 # car-service
-Python application with a 4-layered architecture: data access layer ([Domain package]), persistence layer ([Repository package]), business layer ([Service package])) and presentation layer ([User_Interface package]). The data is saved in memory. Tests were done to validate the data ([Tests package]).
+Python application with a 4-layered architecture: data access layer ([Domain package](https://github.com/Iri25/car-service/tree/main/CarService/Domain)), persistence layer ([Repository package](https://github.com/Iri25/car-service/tree/main/CarService/Repository)), business layer ([Service package](https://github.com/Iri25/car-service/tree/main/CarService/Service)) and presentation layer ([User_Interface package](https://github.com/Iri25/car-service/tree/main/CarService/User_Interface)). The data is saved in memory. Tests were done to validate the data ([Tests package](https://github.com/Iri25/car-service/tree/main/CarService/Tests)).
 
 Application for managing a car service that supports the following functionalities:
 1. CRUD car: id, model, year of purchase, no. km, under warranty. Km and year of manufacture must be strictly positive.
