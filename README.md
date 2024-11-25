@@ -1,6 +1,8 @@
 # car-service
 Python application with a 4-layered architecture: data access layer ([Domain package](https://github.com/Iri25/car-service/tree/main/CarService/Domain)), persistence layer ([Repository package](https://github.com/Iri25/car-service/tree/main/CarService/Repository)), business layer ([Service package](https://github.com/Iri25/car-service/tree/main/CarService/Service)) and presentation layer ([User_Interface package](https://github.com/Iri25/car-service/tree/main/CarService/User_Interface)). The data is saved in memory. Several tests were created to validate the data. ([Tests package](https://github.com/Iri25/car-service/tree/main/CarService/Tests)). The main class is [Application_Coordinator](https://github.com/Iri25/car-service/blob/main/CarService/Application_Coordinator.py). Interaction with the user is done from the console.
 
+## Requirements
+
 Application for managing a car service that supports the following functionalities:
 1. CRUD car: id, model, year of purchase, no. km, under warranty. Km and year of manufacture must be strictly positive.
 2. CRUD customer card: id, name, surname, CNP, date of birth (dd.mm.yyyy), date of registration (dd.mm.yyyy). The CNP must be unique.
